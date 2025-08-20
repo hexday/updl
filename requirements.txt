@@ -1,113 +1,60 @@
-# ==========================================
-# CORE WEB FRAMEWORK
-# ==========================================
-Flask
-Werkzeug
-Jinja2
+# Core Telegram Bot
+python-telegram-bot==21.5
+aiogram==3.13.1
 
-# ==========================================
-# HTTP CLIENT & NETWORKING  
-# ==========================================
-requests
-urllib3
-httpx
+# Media Download Libraries
+yt-dlp==2024.8.6
+instaloader==4.13.1
+spotipy==2.24.0
+gallery-dl==1.27.3
 
-# ==========================================
-# TELEGRAM BOT INTEGRATION
-# ==========================================
-python-telegram-bot
-telegram
+# Web & HTTP
+requests==2.32.3
+aiohttp==3.10.5
+httpx==0.27.2
+beautifulsoup4==4.12.3
+lxml==5.3.0
 
-# ==========================================
-# ASYNC & THREADING
-# ==========================================
-asyncio-mqtt
-aiofiles
-aiodns
+# File Processing
+pillow==10.4.0
+mutagen==1.47.0
+python-magic==0.4.27
+ffmpeg-python==0.2.0
 
-# ==========================================
-# DATABASE & DATA PROCESSING
-# ==========================================
-# SQLite3 is built-in with Python
-ujson
-msgpack
+# Database & Storage
+aiosqlite==0.20.0
+sqlalchemy==2.0.35
+redis==5.1.1
+pymongo==4.8.0
 
-# ==========================================
-# MEDIA PROCESSING
-# ==========================================
-yt-dlp
-Pillow
-python-magic
+# Utility Libraries
+python-dotenv==1.0.1
+python-dateutil==2.9.0
+jdatetime==5.0.0
+humanize==4.10.0
+colorama==0.4.6
+tqdm==4.66.5
+rich==13.8.1
 
-# ==========================================
-# FILE & SYSTEM OPERATIONS
-# ==========================================
-pathlib2
-psutil
-watchdog
+# Monitoring & Logging
+loguru==0.7.2
+sentry-sdk==2.15.0
+prometheus-client==0.21.0
 
-# ==========================================
-# CRYPTOGRAPHY & HASHING
-# ==========================================
-cryptography
-hashlib2
+# Security & Validation
+cryptography==43.0.1
+pydantic==2.9.2
+validators==0.34.0
+ratelimit==2.2.1
 
-# ==========================================
-# LOGGING & MONITORING
-# ==========================================
-colorama
-colorlog
+# Performance & Async
+asyncio-throttle==1.0.2
+async-timeout==4.0.3
+uvloop==0.21.0
+psutil==6.0.0
 
-# ==========================================
-# WEB SCRAPING & PARSING (Optional)
-# ==========================================
-beautifulsoup4
-lxml
-
-# ==========================================
-# PROGRESS BARS & CLI
-# ==========================================
-tqdm
-rich
-
-# ==========================================
-# WINDOWS SPECIFIC (Windows only)
-# ==========================================
-pywin32; sys_platform == "win32"
-winshell; sys_platform == "win32"
-
-# ==========================================
-# LINUX/MAC SPECIFIC (Unix only)  
-# ==========================================
-python-magic-bin; sys_platform == "win32"
-
-# ==========================================
-# DEVELOPMENT & TESTING (Optional)
-# ==========================================
-pytest
-pytest-asyncio
-black
-
-# ==========================================
-# PERFORMANCE OPTIMIZATION
-# ==========================================
-cachetools
-memory-profiler
-
-# ==========================================
-# DATE & TIME HANDLING
-# ==========================================
-python-dateutil
-pytz
-
-# ==========================================
-# CONFIGURATION MANAGEMENT
-# ==========================================
-python-dotenv
-configparser
-
-# ==========================================
-# SECURITY
-# ==========================================
-secrets
-bcrypt
+# Development & Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
+black==24.8.0
+mypy==1.11.2
